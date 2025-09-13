@@ -30,31 +30,38 @@ export const projectPageData = [
                       Link.`,
     ],
     project_overview__skill: [`HTML`, `CSS`, `Javascript`, `Github`],
+    link: "/dopefolio",
+    projectLiveLink: "https://github.com/Pullurinagasandeep/dopefolio",
   },
   {
     id: 2,
     imgSrc: "game-project.jpg",
-    title: "Game🎮",
-    description: ` This is a single‑page web game I created from scratch using HTML, CSS,
-          and JavaScript, hosted on GitHub Pages. It provides a fully
-          interactive browser‑based game experience—featuring custom graphics,
-          user input handling, game logic, and responsive layout—that
-          demonstrates my ability to build engaging front‑end game projects. The
-          gameplay visuals and controls are designed entirely with the frontend
-          tools I know, without relying on external engines or frameworks.`,
+    project__name: "Game🎮",
+    project__sub: `This page contains the case study of Game Open-Source Project which includes the Project Overview, Tools Used and Live Links to the official product.`,
+    project_overview__sub: [
+      `Rock Paper Scissors Game is a lightweight and interactive web-based game that I developed using HTML, CSS, and JavaScript.`,
+      `The goal of this project was to create a fun and visually appealing version of the classic Rock Paper Scissors game that runs smoothly in the browser without any external libraries or frameworks.`,
+      `The user interface is designed to be clean and responsive, ensuring a seamless experience across different devices.`,
+      `This game not only strengthens my understanding of DOM manipulation and event handling in JavaScript but also showcases how simple logic can be turned into an engaging user experience.`,
+    ],
+    project_overview__skill: [`HTML`, `CSS`, `Javascript`, `Github`],
     link: "/game",
+    projectLiveLink: "https://pullurinagasandeep.github.io/Game/",
   },
   {
     id: 3,
     imgSrc: "youtube-project.jpg",
-    title: "Youtube-clone",
-    description: `     This is a YouTube-themed static website that I created from
-                scratch using the frontend tools I know, mainly HTML and CSS.
-                The site visually replicates a YouTube-like homepage by
-                displaying a grid of popular video thumbnails, titles, and view
-                counts. It was built to practice and demonstrate my skills in
-                layout design, responsiveness, and clean user interface
-                development.`,
+    project__name: "YouTube (clone)",
+    project__sub: `This page contains the case study of Dopefolio Open-Source
+                Project which includes the Project Overview, Tools Used and Live
+                Links to the official product.`,
+    project_overview__sub: [
+      `YouTube Homepage Clone is a frontend project where I recreated the user interface of YouTube's homepage using only HTML and CSS. The objective behind this project was to improve my skills in layout design, responsive styling, and visual accuracy by replicating a real-world, widely-used web interface.`,
+      `I focused on capturing the structure, design, and responsiveness of YouTube’s layout including the header, sidebar, video grid, and thumbnail presentation. Although it doesn't include backend functionality or dynamic video loading, this project helped me better understand how modern UI components are structured and styled.`,
+      `It was a valuable learning experience in mastering CSS Flexbox, Grid, and working with scalable UI components. You can view the project live through the Project Link.`,
+    ],
+    project_overview__skill: [`HTML`, `CSS`, `Github`],
     link: "/youtube",
+    projectLiveLink: "https://pullurinagasandeep.github.io/YouTube/",
   },
 ];

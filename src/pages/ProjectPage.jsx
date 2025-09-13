@@ -1,20 +1,25 @@
-import { projectPageData } from "../projectPageData";
+import { Link } from "react-router-dom";
+import { useEffect } from "react";
+import { useLocation } from "react-router-dom";
+export default function ProjectPage({ project }) {
+  const location = useLocation();
 
-export default function ProjectPage() {
+  useEffect(() => {
+    window.scrollTo({ top: 0, behavior: "smooth" });
+  }, [location]);
+
   return (
     <>
       <main>
         <section className="project">
           <div className="project__content">
-            <h1 className="project__name">
-              {projectPageData[0].project__name}
-            </h1>
+            <h1 className="project__name">{project.project__name}</h1>
             <div className="project__info">
-              <p className="project__sub">{projectPageData[0].project__sub}</p>
+              <p className="project__sub">{project.project__sub}</p>
             </div>
             <div className="project__cta">
               <a
-                href="https://github.com/Pullurinagasandeep/dopefolio"
+                href={project.projectLiveLink}
                 target="_blank"
                 className="button"
               >
@@ -29,8 +34,8 @@ export default function ProjectPage() {
             <div className="project-overview__content">
               <div className="project-overview__img">
                 <img
-                  src={projectPageData[0].imgSrc}
-                  alt={projectPageData[0].project__name}
+                  src={project.imgSrc}
+                  alt={project.project__name}
                   className="project-overview__image"
                 />
               </div>
@@ -40,39 +45,24 @@ export default function ProjectPage() {
                     Project Overview
                   </h3>
                   <div className="project-overview__para">
-                    <p className="project-overview__sub p">
-                      {projectPageData[0].project_overview__sub[0]}
-                    </p>
-                    <p className="project-overview__sub p">
-                      {projectPageData[0].project_overview__sub[1]}
-                    </p>
-                    <p className="project-overview__sub p">
-                      {projectPageData[0].project_overview__sub[2]}
-                    </p>
-                    <p className="project-overview__sub p">
-                      {projectPageData[0].project_overview__sub[3]}
-                    </p>
-                    <p className="project-overview__sub p">
-                      {projectPageData[0].project_overview__sub[4]}
-                    </p>
+                    {project.project_overview__sub.map((sub, index) => (
+                      <p key={index} className="project-overview__sub p">
+                        {sub}
+                      </p>
+                    ))}
                   </div>
                 </div>
 
                 <div id="tools" className="project-overview__myskills">
                   <h3 className="project-overview__heading">Tools Used</h3>
                   <div className="project-overview__skills">
-                    <div className="project-overview__skill">
-                      {projectPageData[0].project_overview__skill[0]}
-                    </div>
-                    <div className="project-overview__skill">
-                      {projectPageData[0].project_overview__skill[1]}
-                    </div>
-                    <div className="project-overview__skill">
-                      {projectPageData[0].project_overview__skill[2]}
-                    </div>
-                    <div className="project-overview__skill">
-                      {projectPageData[0].project_overview__skill[3]}
-                    </div>
+                    {project.project_overview__skill.map((skill, index) => {
+                      return (
+                        <div key={index} className="project-overview__skill">
+                          {skill}
+                        </div>
+                      );
+                    })}
                   </div>
                 </div>
 
@@ -81,7 +71,7 @@ export default function ProjectPage() {
                   <div className="project-overview__links-wrapper">
                     <div className="project-overview__link">
                       <a
-                        href="https://github.com/Pullurinagasandeep/dopefolio"
+                        href={project.projectLiveLink}
                         target="_blank"
                         className="button button--med"
                       >
@@ -89,12 +79,12 @@ export default function ProjectPage() {
                       </a>
                     </div>
                     <div className="project-overview__link">
-                      <a
-                        href="index.html#hero"
+                      <Link
+                        to="/#projects"
                         className="button button--med button--theme-reverse"
                       >
                         Go back
-                      </a>
+                      </Link>
                     </div>
                   </div>
                 </div>
