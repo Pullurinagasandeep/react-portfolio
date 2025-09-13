@@ -62,6 +62,24 @@ export const projectPageData = [
     ],
     project_overview__skill: [`HTML`, `CSS`, `Github`],
     link: "/youtube",
-    projectLiveLink: "https://pullurinagasandeep.github.io/YouTube/",
+    projectLiveLink: "https://pullurinagasandeep.github.io/Tours-website/",
+  },
+  {
+    id: 4,
+    imgSrc: "tour-website.png",
+    project__name: "Tours Website",
+    project__sub: `This page contains the case study of Dopefolio Open-Source
+                Project which includes the Project Overview, Tools Used and Live
+                Links to the official product.`,
+    project_overview__sub: [
+      `Tours Website is a frontend project where I designed and developed a travel and tourism-themed website using HTML, CSS, and Bootstrap. The goal of this project was to strengthen my skills in responsive web design, layout structuring, and user interface design by creating a visually engaging and functional travel website.`,
+      `The website features a modern hero section, curated destination cards, pricing details, FAQ section, and a tour booking form. I focused on creating a clean and attractive layout using Bootstrap’s grid system and components to ensure the site adapts well to different screen sizes.`,
+      `Although it doesn't include backend functionality, building this project allowed me to practice real-world frontend techniques, such as using Bootstrap for responsiveness, organizing content using Flexbox and Grid, and working with UI elements like buttons, forms, and navigation menus.`,
+      `It was a valuable learning experience in building scalable and visually appealing websites from scratch.
+You can view the project live through the Project Link`,
+    ],
+    project_overview__skill: [`HTML`, `CSS`, `Github`],
+    link: "/tour",
+    projectLiveLink: "https://pullurinagasandeep.github.io/Tours-website/",
   },
 ];

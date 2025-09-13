@@ -39,4 +39,17 @@ export const projects = [
                 development.`,
     link: "/youtube",
   },
+  {
+    id: 4,
+    imgSrc: "tour-website.png",
+    title: "Tours Website",
+    description: `     This is a YouTube-themed static website that I created from
+                scratch using the frontend tools I know, mainly HTML and CSS.
+                The site visually replicates a YouTube-like homepage by
+                displaying a grid of popular video thumbnails, titles, and view
+                counts. It was built to practice and demonstrate my skills in
+                layout design, responsiveness, and clean user interface
+                development.`,
+    link: "/tour",
+  },
 ];
