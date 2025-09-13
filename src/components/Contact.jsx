@@ -31,8 +31,8 @@ export default function Contact() {
           </div>
         </div>
         <div className="contact-form">
+          {isFormSubmitted ? <Alert onclick={onSubmit} /> : null}
           <form action={onSubmit}>
-            {isFormSubmitted ? <Alert onclick={onSubmit} /> : null}
             <h3>Contact form</h3>
             <label htmlFor="name">Name</label>
             <input
