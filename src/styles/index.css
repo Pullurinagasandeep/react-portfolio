@@ -287,3 +287,22 @@
   margin: 0 auto;
   cursor: pointer;
 }
+
+.alert {
+  padding: 10px 30px;
+  background-color: lightgreen;
+  display: flex;
+  align-items: center;
+}
+.alert-close-button {
+  background-color: transparent;
+  height: 30px;
+  width: 30px;
+}
+.alert-close-button:hover {
+  border: 1px solid black;
+}
+.alert-close {
+  height: 30px;
+  width: 30px;
+}

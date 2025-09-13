@@ -1,13 +1,22 @@
-export default function Contact() {
-  function onSubmit() {
-    console.log("form submitted");
-  }
+import Alert from "./Alert";
+import { useState, useEffect } from "react";
 
+export default function Contact() {
+  const [isFormSubmitted, setIsFormSubmitted] = useState(false);
+  function onSubmit() {
+    setIsFormSubmitted((prev) => !prev);
+  }
+  useEffect(() => {
+    setTimeout(() => {
+      setIsFormSubmitted(false);
+    }, 4000);
+  }, [isFormSubmitted]);
   return (
     <section id="contact" className="contact sec-pad">
       <div className="contact-section">
         <div className="heading-sec">
           <h2 className="heading-sec__main">Contact</h2>
+
           <p className="heading-sec__sub p">
             Feel free to Contact me and I will get back to you as soon as
             possible
@@ -23,6 +32,7 @@ export default function Contact() {
         </div>
         <div className="contact-form">
           <form action={onSubmit}>
+            {isFormSubmitted ? <Alert onclick={onSubmit} /> : null}
             <h3>Contact form</h3>
             <label htmlFor="name">Name</label>
             <input
