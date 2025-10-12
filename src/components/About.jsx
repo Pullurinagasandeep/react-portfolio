@@ -55,8 +55,6 @@ export default function About() {
               <div className="about-content__skill">Github</div>
               <div className="about-content__skill">React</div>
               <div className="about-content__skill">SEO</div>
-              <div className="about-content__skill">Python</div>
-              <div className="about-content__skill">Java</div>
               <div className="about-content__skill">SQL</div>
               <div className="about-content__skill">Web Development</div>
               <div className="about-content__skill">C++</div>
