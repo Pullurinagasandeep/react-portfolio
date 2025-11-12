@@ -5,8 +5,9 @@ export default function Hero() {
         <h1 className="hero__name"> Hey, I'm Naga Sandeep</h1>
         <div className="hero__info">
           <p className="hero__sub">
-            A Result-Oriented Web Developer building and managing Websites and
-            Web Applications that leads to the success of the overall product
+            A Result-Oriented Full Stack Developer building and managing
+            scalable Websites and Web Applications that leads to the success of
+            the overall product
           </p>
         </div>
 

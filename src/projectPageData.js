@@ -1,68 +1,51 @@
 export const projectPageData = [
   {
     id: 1,
-    imgSrc: "dopefolio-project.jpg",
-    project__name: "Dopefolio",
+    imgSrc: "recipe.png",
+    project__name: "Recipe Finder",
     project__sub: `This page contains the case study of Dopefolio Open-Source
                 Project which includes the Project Overview, Tools Used and Live
                 Links to the official product.`,
     project_overview__sub: [
-      `Dopefolio is a modern and minimal multi-page portfolio
-                      website built using HTML, CSS, and JavaScript. It is
-                      designed to help developers present their work, skills,
-                      and experience in a clean and professional layout.`,
-      ` The template features dedicated sections for projects,
-                      skills, about, contact, and more making it easy for users
-                      to organize and showcase their profile effectively. Its
-                      layout is fully responsive and optimized for performance,
-                      ensuring a smooth experience across desktops, tablets, and
-                      mobile devices.`,
-      `  Dopefolio also comes with a built-in color theming system
-                      that allows users to experiment with different primary
-                      colors, giving them flexibility to match their personal
-                      branding.`,
-      `   This project helped me sharpen my frontend skills,
-                      especially in structuring multi-page sites, building
-                      reusable components, and writing clean, scalable CSS. You
-                      can view and try out the template through the Project
-                      Link..`,
+      `Recipe Finder is a dynamic and interactive recipe finder application built using React and CSS. It is designed to provide users with a seamless platform to search for, discover, and explore a wide variety of culinary recipes from around the world.`,
+      `The application features a clean and intuitive interface that allows users to search for meals by name, view detailed cooking instructions, and explore different food categories. Its layout is fully responsive and optimized for performance, ensuring a smooth experience across desktops, tablets, and mobile devices.`,
+      `Recipe Finder also utilizes the TheMealDB public API to fetch real-time data, ensuring that users always have access to an extensive and up-to-date library of recipes without needing a local database.`,
+      `This project helped me sharpen my React development skills, especially in handling API integrations, managing component state, and implementing dynamic routing for a smooth single-page application experience. You can view and try out the application through the Project Link.`,
       ` Feel free to check out the Project by visiting the Project
                       Link.`,
     ],
-    project_overview__skill: [`HTML`, `CSS`, `Javascript`, `Github`],
-    link: "/dopefolio",
-    projectLiveLink: "https://github.com/Pullurinagasandeep/dopefolio",
+    project_overview__skill: [
+      `HTML`,
+      `CSS`,
+      `Javascript`,
+      `Github`,
+      `Git`,
+      `React.js`,
+      `Public API`,
+    ],
+    link: "/recipe",
+    projectLiveLink: "https://synchro-serve-project.vercel.app/",
   },
   {
     id: 2,
-    imgSrc: "game-project.jpg",
+    imgSrc: "guessgame.png",
     project__name: "Game🎮",
     project__sub: `This page contains the case study of Game Open-Source Project which includes the Project Overview, Tools Used and Live Links to the official product.`,
     project_overview__sub: [
-      `Rock Paper Scissors Game is a lightweight and interactive web-based game that I developed using HTML, CSS, and JavaScript.`,
-      `The goal of this project was to create a fun and visually appealing version of the classic Rock Paper Scissors game that runs smoothly in the browser without any external libraries or frameworks.`,
-      `The user interface is designed to be clean and responsive, ensuring a seamless experience across different devices.`,
-      `This game not only strengthens my understanding of DOM manipulation and event handling in JavaScript but also showcases how simple logic can be turned into an engaging user experience.`,
+      `Guess the Word is an interactive single-page puzzle game built from scratch using React and hosted on Vercel. The goal of this project was to create an engaging browser-based experience where players attempt to uncover a hidden word within a limited number of attempts, featuring real-time feedback and dynamic score tracking.`,
+      `The user interface is built using React's component-based architecture and Hooks, ensuring a seamless and responsive experience. The design focuses on efficient state management to handle user inputs and render game logic instantly without page reloads across different devices.`,
+      `This project demonstrates my ability to build logic-heavy front-end applications and implement complex state management using modern JavaScript libraries. It highlights my proficiency in transforming abstract game rules into a functional, interactive web application.`,
     ],
-    project_overview__skill: [`HTML`, `CSS`, `Javascript`, `Github`],
+    project_overview__skill: [
+      `HTML`,
+      `CSS`,
+      `Javascript`,
+      `Github`,
+      `Git`,
+      `React.js`,
+    ],
     link: "/game",
-    projectLiveLink: "https://pullurinagasandeep.github.io/Game/",
-  },
-  {
-    id: 3,
-    imgSrc: "youtube-project.jpg",
-    project__name: "YouTube (clone)",
-    project__sub: `This page contains the case study of Dopefolio Open-Source
-                Project which includes the Project Overview, Tools Used and Live
-                Links to the official product.`,
-    project_overview__sub: [
-      `YouTube Homepage Clone is a frontend project where I recreated the user interface of YouTube's homepage using only HTML and CSS. The objective behind this project was to improve my skills in layout design, responsive styling, and visual accuracy by replicating a real-world, widely-used web interface.`,
-      `I focused on capturing the structure, design, and responsiveness of YouTube’s layout including the header, sidebar, video grid, and thumbnail presentation. Although it doesn't include backend functionality or dynamic video loading, this project helped me better understand how modern UI components are structured and styled.`,
-      `It was a valuable learning experience in mastering CSS Flexbox, Grid, and working with scalable UI components. You can view the project live through the Project Link.`,
-    ],
-    project_overview__skill: [`HTML`, `CSS`, `Github`],
-    link: "/youtube",
-    projectLiveLink: "https://pullurinagasandeep.github.io/Tours-website/",
+    projectLiveLink: "https://guessing-game-zeta-ten.vercel.app/",
   },
   {
     id: 4,
@@ -81,5 +64,34 @@ You can view the project live through the Project Link`,
     project_overview__skill: [`HTML`, `CSS`, `Github`],
     link: "/tour",
     projectLiveLink: "https://pullurinagasandeep.github.io/Tours-website/",
+  },
+  {
+    id: 5,
+    imgSrc: "syblog-project.png",
+    project__name: "SyBlog",
+    project__sub: `This page contains the case study of Dopefolio Open-Source
+                Project which includes the Project Overview, Tools Used and Live
+                Links to the official product.`,
+    project_overview__sub: [
+      `SyBlog is a modern and dynamic full-stack blogging application built using the MERN stack (MongoDB, Express.js, React, and Node.js). It is designed to provide a seamless platform for users to create, share, and discover content in a clean and professional environment.`,
+      `The application features secure user authentication, a rich text editor for creating posts, and an interactive comment system, making it easy for writers to express themselves and engage with readers effectively. Its layout is fully responsive and optimized for performance, ensuring a smooth experience across desktops, tablets, and mobile devices.`,
+      `SyBlog also includes a user-friendly dashboard that allows authors to manage their posts and profile settings, giving them full control over their content and personal branding.`,
+      `This project helped me sharpen my full-stack development skills, especially in architecting RESTful APIs, managing database schemas with MongoDB, and integrating a robust backend with a dynamic React frontend. You can view and try out the application through the Project Link.`,
+      ` Feel free to check out the Project by visiting the Project
+                      Link.`,
+    ],
+    project_overview__skill: [
+      `HTML`,
+      `CSS`,
+      `Javascript`,
+      `Github`,
+      `Git`,
+      `React.js`,
+      `Node.js`,
+      `Express.js`,
+      `MongoDB`,
+    ],
+    link: "/syblog",
+    projectLiveLink: "https://blog-webapp-orpin.vercel.app",
   },
 ];

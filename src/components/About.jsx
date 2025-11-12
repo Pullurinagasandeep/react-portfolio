@@ -15,13 +15,9 @@ export default function About() {
             <div className="about-content__para">
               <p className="about-content__sub p">
                 I'm a{" "}
-                <span className="p_heighlight">
-                  Frontend Focused Web Developer
-                </span>{" "}
-                building and managing the Front-end of Websites and Web
-                Applications that leads to the success of the overall product.
-                Check out some of my work in the
-                <span className="p_heighlight">Projects</span> section.
+                <span className="p_heighlight">Full Stack MERN Developer</span>{" "}
+                building and managing Websites and Web Applications that leads
+                to the success of the overall product.
               </p>
               <p className="about-content__sub p">
                 I also like sharing content related to the stuff that I have
@@ -52,13 +48,15 @@ export default function About() {
               <div className="about-content__skill">HTML</div>
               <div className="about-content__skill">CSS</div>
               <div className="about-content__skill">Javascript</div>
-              <div className="about-content__skill">Github</div>
-              <div className="about-content__skill">React</div>
-              <div className="about-content__skill">SEO</div>
-              <div className="about-content__skill">SQL</div>
-              <div className="about-content__skill">Web Development</div>
-              <div className="about-content__skill">C++</div>
-              <div className="about-content__skill">C</div>
+              <div className="about-content__skill">React.js</div>
+              <div className="about-content__skill">Node.js</div>
+              <div className="about-content__skill">Express.js</div>
+              <div className="about-content__skill">MongoDB</div>
+              <div className="about-content__skill">Git</div>
+              <div className="about-content__skill">Jenkins</div>
+              <div className="about-content__skill">Docker</div>
+              <div className="about-content__skill">AWS</div>
+              <div className="about-content__skill">Kubernetes</div>
             </div>
           </div>
         </div>

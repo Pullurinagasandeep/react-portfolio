@@ -6,9 +6,8 @@ export default function Footer() {
           <div className="author">
             <h3 className="author__heading">NAGA SANDEEP</h3>
             <p className="author__sub">
-              A Frontend focused Web Developer building the Frontend of Websites
-              and Web Applications that leads to the success of the overall
-              product
+              A Full Stack Developer building Websites and Web Applications that
+              leads to the success of the overall product
             </p>
           </div>
           <div className="social">
